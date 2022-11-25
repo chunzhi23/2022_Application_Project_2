@@ -1,0 +1,30 @@
+header {
+  h1 > span {
+    font-variant: small-caps;
+  }
+
+  .logo {
+    text-align: center;
+
+    .png {
+      width: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .png {
+        animation: App-logo-spin infinite 10s linear;
+      }
+    }
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

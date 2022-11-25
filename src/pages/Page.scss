@@ -1,0 +1,19 @@
+#container {
+  // About.tsx
+  .highschool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img.logo {
+      margin-right: 20px;
+      width: 50px;
+    }
+
+    p.text {
+      font-size: 18px;
+    }
+  }
+
+  // Contact
+}
